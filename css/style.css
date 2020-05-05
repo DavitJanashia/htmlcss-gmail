@@ -1,0 +1,116 @@
+*{
+  box-sizing: border-box;
+
+}
+body{
+  margin: auto;
+  width: 1000px;
+  background-image: url('../images/bg.jpg');
+}
+
+header{
+  position: relative;
+}
+
+
+.container{
+  width:100%;
+  padding-top:20px;
+}
+
+#logo{
+  width: 100px;
+}
+
+#textgmail{
+  font-size:25px;
+  color:white;
+  position: absolute;
+  top:50%;
+  transform: translate(10%, -50%);
+}
+
+hr{
+  border-bottom:1px solid lightgray;
+}
+
+main{
+  width: 100%;
+}
+
+#vai{
+  border-radius: 3px;
+}
+
+#search{
+  width:150px;
+}
+
+.input{
+  margin-bottom:7px;
+}
+
+#textunread{
+  font-size:25px;
+  color: white;
+}
+
+#numberunread{
+  display: inline-block;
+  width: 50px;
+  line-height:50px;
+  border-radius: 50%;
+  font-size: 25px;
+  border:none;
+  background-color: orange;
+  color:white;
+  text-align: center;
+  padding: 0;
+  font-family: arial;
+}
+
+
+
+.emails{
+  width: 100%;
+  padding: 2px;
+  margin-bottom: 2px;
+}
+
+.star:hover{
+  color:orange;
+}
+
+
+.emails.read{
+  background-color:lightgrey;
+}
+.emails.unread{
+  background-color:white;
+}
+
+.emails-row-left{
+  width: 13%;
+  display: inline-block;
+  font-weight: bold;
+
+}
+
+.emails-row-right{
+  width:82%;
+  display: inline-block;
+  color:grey;
+}
+
+footer{
+  font-weight: bold;
+  font-size: 25px;
+  color:white;
+  text-align: center;
+}
+
+#textfooter{
+  font-size: 15px;
+  font-style: italic;
+  font-weight: none;
+}
